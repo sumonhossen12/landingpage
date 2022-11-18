@@ -1,0 +1,150 @@
+*{
+    margin: auto;
+    padding: 0px;
+
+}
+/*===========================
+    Header Section
+============================*/
+#container{
+    background-image: url(images/1.jpg);
+    width: 2500px;
+    height: 1600px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    box-shadow: 0px 2px 15px #000000;
+
+}
+
+/*===========================
+    Header logo part
+============================*/
+
+.header{
+    width: 2230px;
+    text-align: center;
+
+}
+.logo{
+    float: left;
+    margin-top: 80px;
+    overflow: hidden;
+}
+.logo img {
+	width: 264px;
+	height: 116px;
+}
+
+/*===========================
+    Header menu Section
+============================*/
+
+.menubar{
+    width: 1420px;
+    float: right;
+    margin-right: 0px;
+    overflow: hidden;
+}
+.menubar ul{
+    display: flex;
+    margin-top: 120px;
+}
+.menubar ul li{
+    list-style: none;
+    font-size: 50px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: blue;
+    margin-right: 75px;
+    
+
+}
+.menubar ul li a:hover{
+    color: #d40778;
+}
+.menubar h2{
+    margin-top: 110px;
+    background: #ff00cc;
+    border-radius: 40px;
+    padding: 15px 25px;
+    width: 300px;
+    float: right;
+    transition: 1s;
+}
+.menubar h2:hover{
+    background: blue;
+}
+.menubar h2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+   
+}
+
+/*===========================
+    seconde part
+============================*/
+.mainpart{
+    margin-top: 376px;
+    margin-left: 157px;
+    width: 650px;
+    height: 938px;
+   justify-content: space-between;
+}
+.mainpart h1{
+    font-size: 130px;
+    color: #283e71;
+}
+.mainpart h2{
+    font-size: 80px;
+    color: #d40778;
+    margin-top: 50px;
+
+}
+.mainpart p{
+    margin-top: 150px;
+    font-size: 40px;
+    color: #283e71;
+}
+.mainpart h3{
+    background: #d40778;
+    width: 318px;
+    padding: 15px 30px;
+    float: left;
+    text-align: center;
+    border-radius: 1000px;
+    margin-top: 50px;
+    transition: 1s;
+
+}
+.mainpart h3:hover{
+    background: blue;
+}
+.mainpart h3 a{
+    font-size: 60px;
+    text-decoration: none;
+    color: white;
+}
+/*====================
+    icone part
+=====================*/
+.icone {
+	width: 350px;
+	font-size: 80px;
+	float: left;
+	margin-top: 130px;
+	margin-left: -350px;
+}
+.icone a{
+    text-decoration: none;
+    color: #283e71;
+}
+.icone a:hover{
+    color: #ff00cc;
+}
+
+.icone a i{
+    margin-right: 30px;
+}
+
